@@ -120,13 +120,13 @@ const QUIZZES = {
   },
   "Grade 4": {
   "1st": {
-    topic: "GST (GRADE 4 — 1st Term)",
+    topic: "GST",
     durationSeconds: 25 * 60,
     questions: [
       { id: 1, text: "Which of these components serves as the brain of the computer?", options: ["Speaker", "Floppy disk", "Flash drive", "System Unit"], answerIndex: 3 },
       { id: 2, text: "An electronic device that accepts data, processes data, and gives out information is a ________", options: ["Computer", "Microwave", "Natural gas", "Electricity"], answerIndex: 0 },
       { id: 3, text: "What are the sons of your brother’s or sister’s children called?", options: ["Nephews", "Cousins", "Sisters", "Brothers"], answerIndex: 0 },
-      { id: 4, text: "Which one of these is not an element of culture?", options: ["Language", "Childbirth", "Marriage practices", ""], answerIndex: 3 },
+      { id: 4, text: "Which one of these is not an element of culture?", options: ["Language", "Childbirth", "Marriage practices", "Fighting"], answerIndex: 3 },
       { id: 5, text: "Who stopped the killing of twins in our tradition?", options: ["The Calabar women", "Mary Stella", "Mary Slessor", "The Festival and culture"], answerIndex: 2 },
       { id: 6, text: "Which is a way to promote and preserve our culture?", options: ["Eat foreign foods", "Being absent from cultural activities", "Wearing our native attire", "Speaking foreign languages"], answerIndex: 2 },
       { id: 7, text: "In absolute monarchy, who has the political power?", options: ["The monarch", "The Prime Minister", "The President", "The leader"], answerIndex: 0 },
@@ -492,3 +492,4 @@ el.restartBtn.addEventListener('click', ()=>{
   show('login');
   el.loginForm.reset();
 });
+

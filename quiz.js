@@ -163,7 +163,7 @@ const QUIZZES = {
 
   "Grade 5": {
   "1st": {
-    "topic": "GST (GRADE 5 — 1st Term)",
+    "topic": "GST",
     "durationSeconds": 25 * 60,
     "questions": [
       { "id": 1, "text": "Which is incorrect?", "options": ["A healthy environment is attractive", "A healthy environment is safe for living", "A healthy environment prevents diseases", "A healthy environment causes pollution"], "answerIndex": 3 },
@@ -179,7 +179,7 @@ const QUIZZES = {
       { "id": 11, "text": "All of these are benefits of family relationship except?", "options": ["offering advice", "providing assistance", "provision of food and shelter", "disagreement among members of the family"], "answerIndex": 3 },
       { "id": 12, "text": "The processing of removing seedlings from the nursery bed to the permanent site is called ?", "options": ["planting", "pre-planting", "transplanting", "post-planting"], "answerIndex": 2 },
       { "id": 13, "text": "All of these are pre-planting activities except ?", "options": ["land clearing", "selection of farm land", "stamping", "harvesting"], "answerIndex": 3 },
-      { "id": 14, "text": "How many change over arenas are there in a 4×100m relay race?", "options": ["2", "3", "4", "5"], "answerIndex": 2 },
+      { "id": 14, "text": "How many change over arenas are there in a 4×100m relay race?", "options": ["2", "3", "4", "5"], "answerIndex": 1 },
       { "id": 15, "text": "All of these are skills in long distances race except________", "options": ["take off", "arm action", "finish", "dribbling"], "answerIndex": 3 },
       { "id": 16, "text": "The highest Jewish council is called _____", "options": ["Sanhedrin", "Judge", "Peter", "Paul"], "answerIndex": 0 },
       { "id": 17, "text": "What happened to Saul on his way to Damascus?", "options": ["A great light from heaven flashed around him", "water from sky splash around him", "force flash from heaven flash around him", "none of the above"], "answerIndex": 0 },
@@ -492,4 +492,5 @@ el.restartBtn.addEventListener('click', ()=>{
   show('login');
   el.loginForm.reset();
 });
+
 

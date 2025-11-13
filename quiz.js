@@ -83,24 +83,24 @@ const QUIZZES = {
     questions: [
       { id: 1, text: "Visual art is __?", options: ["An art form we can hear", "An art form we can see", "An art form we can taste", "An art form we can smell"], answerIndex: 1 },
       { id: 2, text: "_____ is an example of visual art", options: ["Music", "Singing", "Dancing", "Painting"], answerIndex: 3 },
-      { id: 3, text: "A pattern made with circles and lines is called ________?", options: ["Curve pattern", "Mixed pattern", "Circular pattern", "Zigzag pattern"], answerIndex: 2 },
+      { id: 3, text: "____ is a part of a computer?", options: ["Bucket", "Monitor", "Television", "Lamp"], answerIndex: 1 },
       { id: 4, text: "What is democracy?", options: ["A system where one person makes all the decisions", "A system where people choose their leader by voting", "Citizens not following any rules", "Only leaders making decisions"], answerIndex: 1 },
       { id: 5, text: "Which of these is not a right of citizens?", options: ["Right to commit offence", "Right to life", "Right to vote", "Right to property"], answerIndex: 0 },
       { id: 6, text: "How many hours are in one day?", options: ["12 hours", "48 hours", "24 hours", "60 hours"], answerIndex: 2 },
       { id: 7, text: "The development of tools and machines to help people accomplish tasks is known as _____________", options: ["Nature", "Art", "Technology", "Science fiction"], answerIndex: 2 },
-      { id: 8, text: "Which of these is a component of soil?", options: ["Minerals", "Organic matter", "Air and water", "All of the above"], answerIndex: 3 },
+      { id: 8, text: "Which of these is a component of soil?", options: ["Money", "Organic matter", "Fish", "Mouse"], answerIndex: 3 },
       { id: 9, text: "What is marriage?", options: ["A legal and acceptable union between a man and a woman", "A coming together of a boy and girl", "A way of knowing a girl", "Talking to someone"], answerIndex: 0 },
       { id: 10, text: "Express 7/10 as a decimal", options: ["7.10", "0.7", "0.07", "0.007"], answerIndex: 1 },
-      { id: 11, text: "Simplify ½ + ¾", options: ["1¼", "2¼", "3¼", "4¼"], answerIndex: 0 },
+      { id: 11, text: "Add ½ + ¾", options: ["1¼", "2¼", "3¼", "4¼"], answerIndex: 0 },
       { id: 12, text: "If there are 20 boys and 15 girls in a class, how many pupils are in the class altogether?", options: ["30", "35", "5", "25"], answerIndex: 1 },
-      { id: 13, text: "All these states are found in South-West Nigeria EXCEPT ______", options: ["Ekiti", "Oyo", "Osun", "Delta"], answerIndex: 3 },
+      { id: 13, text: "All these things are found in the church EXCEPT ______", options: ["Speaker", "Piano", "Tree", "Drum"], answerIndex: 2 },
       { id: 14, text: "A person who discovers artefacts and digs them up is known as a/an ____", options: ["Archaeologist", "Egyptologist", "Historian", "Pharmacist"], answerIndex: 0 },
       { id: 15, text: "What was the primary purpose of early counting devices?", options: ["Communication", "Cooking", "Simple calculations and counting", "Entertainment"], answerIndex: 2 },
       { id: 16, text: "Who designed the Difference Machine?", options: ["Ada Lovelace", "Alan Turing", "Charles Babbage", "John Napier"], answerIndex: 2 },
       { id: 17, text: "In Microsoft Word, the SAVE function helps to ___________", options: ["Delete a document", "Store the document for future use", "Print a document", "Close the program"], answerIndex: 1 },
       { id: 18, text: "In a Christian family, who is considered the head?", options: ["The eldest child", "The father", "The mother", "The grandparents"], answerIndex: 1 },
       { id: 19, text: "Which tool is commonly used to measure length?", options: ["Thermometer", "Ruler", "Stopwatch", "Weighing scale"], answerIndex: 1 },
-      { id: 20, text: "Which of these components serves as the brain of the computer?", options: ["Speaker", "Floppy disk", "Flash drive", "System Unit"], answerIndex: 3 }
+      { id: 20, text: "Which of these components serves as the brain of the computer?", options: ["Speaker", "Floppy disk", "Flash drive", "System Unit(CPU)"], answerIndex: 3 }
     ]
   },
     "2nd": {
@@ -492,5 +492,6 @@ el.restartBtn.addEventListener('click', ()=>{
   show('login');
   el.loginForm.reset();
 });
+
 
 

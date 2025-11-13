@@ -88,7 +88,7 @@ const QUIZZES = {
       { id: 5, text: "Which of these is not a right of citizens?", options: ["Right to commit offence", "Right to life", "Right to vote", "Right to property"], answerIndex: 0 },
       { id: 6, text: "How many hours are in one day?", options: ["12 hours", "48 hours", "24 hours", "60 hours"], answerIndex: 2 },
       { id: 7, text: "The development of tools and machines to help people accomplish tasks is known as _____________", options: ["Nature", "Art", "Technology", "Science fiction"], answerIndex: 2 },
-      { id: 8, text: "Which of these is a component of soil?", options: ["Money", "Organic matter", "Fish", "Mouse"], answerIndex: 3 },
+      { id: 8, text: "Which of these is a component of soil?", options: ["Money", "Organic matter", "Fish", "Mouse"], answerIndex: 1 },
       { id: 9, text: "What is marriage?", options: ["A legal and acceptable union between a man and a woman", "A coming together of a boy and girl", "A way of knowing a girl", "Talking to someone"], answerIndex: 0 },
       { id: 10, text: "Express 7/10 as a decimal", options: ["7.10", "0.7", "0.07", "0.007"], answerIndex: 1 },
       { id: 11, text: "Add ½ + ¾", options: ["1¼", "2¼", "3¼", "4¼"], answerIndex: 0 },
@@ -492,6 +492,7 @@ el.restartBtn.addEventListener('click', ()=>{
   show('login');
   el.loginForm.reset();
 });
+
 
 
 
